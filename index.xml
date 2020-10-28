@@ -2,109 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code Talks</title>
-    <link>http://localhost/myblog/</link>
+    <link>https://raskin-soft.github.io/</link>
     <description>Recent content on Code Talks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://raskin-soft.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rasa Installation</title>
-      <link>http://localhost/myblog/posts/cross-site-history-manipulation/</link>
+      <link>https://raskin-soft.github.io/posts/cross-site-history-manipulation/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/cross-site-history-manipulation/</guid>
+      <guid>https://raskin-soft.github.io/posts/cross-site-history-manipulation/</guid>
       <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
     </item>
     
     <item>
       <title>Rasa Installation</title>
-      <link>http://localhost/myblog/posts/heap-inspection/</link>
+      <link>https://raskin-soft.github.io/posts/heap-inspection/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/heap-inspection/</guid>
+      <guid>https://raskin-soft.github.io/posts/heap-inspection/</guid>
       <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
     </item>
     
     <item>
       <title>Rasa Installation</title>
-      <link>http://localhost/myblog/posts/rasa-installation/</link>
+      <link>https://raskin-soft.github.io/posts/rasa-installation/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/rasa-installation/</guid>
+      <guid>https://raskin-soft.github.io/posts/rasa-installation/</guid>
       <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
     </item>
     
     <item>
       <title>Rasa Installation</title>
-      <link>http://localhost/myblog/posts/reflected-xss-all-clients/</link>
+      <link>https://raskin-soft.github.io/posts/reflected-xss-all-clients/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/reflected-xss-all-clients/</guid>
+      <guid>https://raskin-soft.github.io/posts/reflected-xss-all-clients/</guid>
       <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
     </item>
     
     <item>
       <title>Rasa Installation</title>
-      <link>http://localhost/myblog/posts/stored-xss/</link>
+      <link>https://raskin-soft.github.io/posts/stored-xss/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/stored-xss/</guid>
+      <guid>https://raskin-soft.github.io/posts/stored-xss/</guid>
       <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
     </item>
     
     <item>
       <title>Client Potential Code Injection</title>
-      <link>http://localhost/myblog/posts/client-potential-code-injection/</link>
+      <link>https://raskin-soft.github.io/posts/client-potential-code-injection/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/client-potential-code-injection/</guid>
+      <guid>https://raskin-soft.github.io/posts/client-potential-code-injection/</guid>
       <description>Problem Description The application performs some action by creating and running code that includes untrusted data, which might be under control of a malicious user. If the data contains malicious code, the executed code could contain system-level activities engineered by an attacker, as though the attacker were running code directly on the application server. In this case, the untrusted code is read by the browser, and executed on the client side.</description>
     </item>
     
     <item>
       <title>Client Potential XSS</title>
-      <link>http://localhost/myblog/posts/client-potential-xss/</link>
+      <link>https://raskin-soft.github.io/posts/client-potential-xss/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/client-potential-xss/</guid>
+      <guid>https://raskin-soft.github.io/posts/client-potential-xss/</guid>
       <description>Problem Description The application creates web pages that include data from previous user input. The user input is embedded directly in the page&amp;rsquo;s HTML, causing the browser to display it as part of the web page. If the input includes HTML fragments or JavaScript, these are displayed too, and the user cannot tell that this is not the intended page. The vulnerability is the result of embedding arbitrary user input without first encoding it in a format that would prevent the browser from treating it like HTML instead of plain text.</description>
     </item>
     
     <item>
       <title>Client Reflected File Download</title>
-      <link>http://localhost/myblog/posts/client-reflected-file-download/</link>
+      <link>https://raskin-soft.github.io/posts/client-reflected-file-download/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/client-reflected-file-download/</guid>
+      <guid>https://raskin-soft.github.io/posts/client-reflected-file-download/</guid>
       <description>Problem Description There are 3 requirements for a successful RFD attack:
  Reflection – User&amp;rsquo;s input should be reflected in the response from the server. Permissive URL – URL or API too permissive that allows an attacker to build a legitimate URI with an executable file extension. Download Response – Download the response instead of rendering it, the browser will set the file with the file extension that was in the URI from (2).</description>
     </item>
     
     <item>
       <title>Client Use Of JQuery Outdated Version</title>
-      <link>http://localhost/myblog/posts/client-use-of-jquery-outdated/</link>
+      <link>https://raskin-soft.github.io/posts/client-use-of-jquery-outdated/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/client-use-of-jquery-outdated/</guid>
+      <guid>https://raskin-soft.github.io/posts/client-use-of-jquery-outdated/</guid>
       <description>Problem Description The application references code elements that have been declared as deprecated. This could include classes, functions, methods, properties, modules, or obsolete library versions that are either out of date by version, or have been entirely deprecated. It is likely that the code that references the obsolete element was developed before it was declared as obsolete, and in the meantime the referenced code was updated.
 Risk Referencing deprecated modules can cause an application to be exposed to known vulnerabilities, that have been publicly reported and already fixed.</description>
     </item>
     
     <item>
       <title>HttpOnlyCookies In Config</title>
-      <link>http://localhost/myblog/posts/httponlycookies-in-config/</link>
+      <link>https://raskin-soft.github.io/posts/httponlycookies-in-config/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/httponlycookies-in-config/</guid>
+      <guid>https://raskin-soft.github.io/posts/httponlycookies-in-config/</guid>
       <description>Problem Description The web application framework, by default, does not set the &amp;ldquo;httpOnly&amp;rdquo; flag for the application&amp;rsquo;s sessionid cookie and other sensitive application cookies. Likewise, the application does not explicitly use the &amp;ldquo;httpOnly&amp;rdquo; cookie flag, thus allowing client scripts to access the cookies by default.
 Risk Cookies that contain the user&amp;rsquo;s session identifier, and other sensitive application cookies, are typically accessible by client-side scripts, such as JavaScript. Unless the web application explicitly prevents this using the &amp;ldquo;httpOnly&amp;rdquo; cookie flag, these cookies could be read and accessed by malicious client scripts, such as CrossSite Scripting (XSS).</description>
     </item>
     
     <item>
       <title>Insufficient Connection String Encryption</title>
-      <link>http://localhost/myblog/posts/insufficient-connection-string-encryption/</link>
+      <link>https://raskin-soft.github.io/posts/insufficient-connection-string-encryption/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/insufficient-connection-string-encryption/</guid>
+      <guid>https://raskin-soft.github.io/posts/insufficient-connection-string-encryption/</guid>
       <description>Problem Description Encrypting the connection string will make sure that the connection string credentials are secured and will not be exposed to anyone within the packets.
 Risk Using plain-text connection string within the network to connect to a database will expose the credentials.
 General Recommendations  Always encrypt the connection string, preferably with a certificate provisioned by a certificate authority. If there is no provisioned certificate from a known certificate authority, then a self-signed certificate is possible as well.</description>
@@ -112,10 +112,10 @@ General Recommendations  Always encrypt the connection string, preferably with a
     
     <item>
       <title>Missing Column Encryption</title>
-      <link>http://localhost/myblog/posts/missing-column-encryption/</link>
+      <link>https://raskin-soft.github.io/posts/missing-column-encryption/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/missing-column-encryption/</guid>
+      <guid>https://raskin-soft.github.io/posts/missing-column-encryption/</guid>
       <description>Problem Description Database columns are stored in clear text which means, it would be easy to read the data if one has access to the SQL server. Encrypting The columns prior storing the data will ensure that confidentiality will be sustained and will not be at risk.
 Risk Storing data in clear text may allow users with access to the server to extract sensitive information.
 General Recommendations Column encryption was introduced in SQL Server 2017 and Azure SQL Database, if one of these are in use then it is highly recommended to enable Column Encryption to make sure that data is safe on the SQL server.</description>
@@ -123,20 +123,20 @@ General Recommendations Column encryption was introduced in SQL Server 2017 and 
     
     <item>
       <title>Parameter Tampering</title>
-      <link>http://localhost/myblog/posts/parameter-tampering/</link>
+      <link>https://raskin-soft.github.io/posts/parameter-tampering/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/parameter-tampering/</guid>
+      <guid>https://raskin-soft.github.io/posts/parameter-tampering/</guid>
       <description>Problem Description The application provides user information without filtering by user ID. For example, it may provide information solely by a submitted account ID. The application concatenates the user input directly into the SQL query string, without any additional filtering. The application also does not perform any validation on the input, nor constrain it to a pre-computed list of acceptable values.
 Risk A malicious user could access other users’ information. By requesting information directly, such as by an account number, authorization may be bypassed and the attacker could steal confidential or restricted information (for example, a bank account balance), using a direct object reference.</description>
     </item>
     
     <item>
       <title>Path Traversal</title>
-      <link>http://localhost/myblog/posts/path-traversal/</link>
+      <link>https://raskin-soft.github.io/posts/path-traversal/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/path-traversal/</guid>
+      <guid>https://raskin-soft.github.io/posts/path-traversal/</guid>
       <description>Problem Description The application uses user input in the file path for accessing files on the application server’s local disk.
 Risk An attacker could define arbitrary file path for the application to use, potentially leading to:
  Stealing sensitive files, such as configuration or system files Overwriting files such as program binaries, configuration files, or system files Deleting critical files, causing denial of service (DoS).  General Recommendations  Ideally, avoid depending on dynamic data for file selection.</description>
@@ -144,114 +144,114 @@ Risk An attacker could define arbitrary file path for the application to use, po
     
     <item>
       <title>RequireSSL</title>
-      <link>http://localhost/myblog/posts/requiressl/</link>
+      <link>https://raskin-soft.github.io/posts/requiressl/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/requiressl/</guid>
+      <guid>https://raskin-soft.github.io/posts/requiressl/</guid>
       <description>Problem Description The web application framework by default does not set the &amp;ldquo;secure&amp;rdquo; flag for the application&amp;rsquo;s sessionID cookie, and other sensitive application cookies. Likewise, the application does not explicitly use the &amp;ldquo;secure&amp;rdquo; cookie flag, allowing them to be sent in plaintext over an insecure session.
 Risk Cookies that contain the user&amp;rsquo;s session identifier, and other sensitive application cookies, should be sent to the server over a secure network communication (HTTPS) in order to prevent attackers from sniffing the traffic and stealing those cookies.</description>
     </item>
     
     <item>
       <title>Use of Cryptographically Weak PRNG</title>
-      <link>http://localhost/myblog/posts/use-of-cryptographically-weak-prng/</link>
+      <link>https://raskin-soft.github.io/posts/use-of-cryptographically-weak-prng/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/use-of-cryptographically-weak-prng/</guid>
+      <guid>https://raskin-soft.github.io/posts/use-of-cryptographically-weak-prng/</guid>
       <description>Problem Description The application uses a weak method of generating pseudo-random values, such that other numbers could be determined from a relatively small sample size. Since the pseudo-random number generator used is designed for statistically uniform distribution of values, it is approximately deterministic. Thus, after collecting a few generated values (e.g. by creating a few individual sessions, and collecting the sessionids), it would be possible for an attacker to calculate another sessionid.</description>
     </item>
     
     <item>
       <title>XSRF</title>
-      <link>http://localhost/myblog/posts/xsrf/</link>
+      <link>https://raskin-soft.github.io/posts/xsrf/</link>
       <pubDate>Thu, 01 Oct 2020 01:36:00 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/xsrf/</guid>
+      <guid>https://raskin-soft.github.io/posts/xsrf/</guid>
       <description>Problem Description The application performs some action that modifies database contents, based purely on HTTP request content, and does not require per-request renewed authentication (such as transaction authentication or a synchronizer token), instead relying solely on session authentication. This means that an attacker could use social engineering to cause a victim to browse to a link which contains a transaction request to the vulnerable application, submitting that request from the user&amp;rsquo;s browser.</description>
     </item>
     
     <item>
       <title>Block cipher security update</title>
-      <link>http://localhost/myblog/posts/block-cipher-security-update/</link>
+      <link>https://raskin-soft.github.io/posts/block-cipher-security-update/</link>
       <pubDate>Wed, 30 Sep 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/block-cipher-security-update/</guid>
+      <guid>https://raskin-soft.github.io/posts/block-cipher-security-update/</guid>
       <description>Problem Description Electronic code book is the easiest block cipher mode of functioning. It is easier because of direct encryption of each block of input plaintext and output is in form of blocks of encrypted ciphertext. Generally, if a message is larger than b bits in size, it can be broken down into bunch of blocks and the procedure is repeated. Disadvantages of using ECB – •	Prone to cryptanalysis since there is a direct relationship between plaintext and ciphertext.</description>
     </item>
     
     <item>
       <title>Concurrency Login / Restrict Multiple Login</title>
-      <link>http://localhost/myblog/posts/restrict-multiple-login/</link>
+      <link>https://raskin-soft.github.io/posts/restrict-multiple-login/</link>
       <pubDate>Wed, 30 Sep 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/restrict-multiple-login/</guid>
+      <guid>https://raskin-soft.github.io/posts/restrict-multiple-login/</guid>
       <description>Problem Description
  Same user can login from another PC concurrently. It can lead to data compromised by attacker. Attacker can take control of this system.  Solution  Check, whether requested user is already logged in. Do not share user information with others. Two-factor authentication could be implemented to be more secured.  Implementation // _______ Use below method for multiple login check _______ protected bool CheckMultipleLogin() { string sUserName = Convert.</description>
     </item>
     
     <item>
       <title>Cookie does not expire / Max-age is not set</title>
-      <link>http://localhost/myblog/posts/cookie-expiration/</link>
+      <link>https://raskin-soft.github.io/posts/cookie-expiration/</link>
       <pubDate>Wed, 30 Sep 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/cookie-expiration/</guid>
+      <guid>https://raskin-soft.github.io/posts/cookie-expiration/</guid>
       <description>Problem Description Cookies are simple text files that a website can store on your browser. The main purpose of a cookie is to identify users, save site login details or create customized web pages tailored to the individual’s preferences. If cookie does not expire then - •	Hackers can potentially hijack cookies, gaining access to browser sessions and then steal personal data. •	They can slow your browser down. •	They store your personal information.</description>
     </item>
     
     <item>
       <title>Cookie path set to root</title>
-      <link>http://localhost/myblog/posts/cookie-path-set-to-root/</link>
+      <link>https://raskin-soft.github.io/posts/cookie-path-set-to-root/</link>
       <pubDate>Wed, 30 Sep 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/cookie-path-set-to-root/</guid>
+      <guid>https://raskin-soft.github.io/posts/cookie-path-set-to-root/</guid>
       <description>Problem Description Setting cookies path outside the root directory may expose cookies value from other directories to attackers.
 Solution The Path directive of a cookie determines the URL path for which the cookie will be valid. For example, if a cookie has been declared to include the directive “path=/“, the cookie will be valid for all application paths, from the root directory downwards on the web server. If a single application resides on the web server and the application is accessible at the root of the domain (for example www.</description>
     </item>
     
     <item>
       <title>Cryptography Algorithm Update</title>
-      <link>http://localhost/myblog/posts/cryptography-algorithm-update/</link>
+      <link>https://raskin-soft.github.io/posts/cryptography-algorithm-update/</link>
       <pubDate>Wed, 30 Sep 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/cryptography-algorithm-update/</guid>
+      <guid>https://raskin-soft.github.io/posts/cryptography-algorithm-update/</guid>
       <description>Problem Description Currently, system is using MD5 hash algorithm. MD5 is an algorithm that produce a 32 characters hexadecimal string from any password, phrase or text. Using salted md5 for passwords is a bad idea. Not because of MD5&amp;rsquo;s cryptographic weaknesses, but because it&amp;rsquo;s fast. This means that an attacker can try billions of candidate passwords per second on a single GPU. So, MD5 algorithm is not secure at all.</description>
     </item>
     
     <item>
       <title>Security Header</title>
-      <link>http://localhost/myblog/posts/security-header/</link>
+      <link>https://raskin-soft.github.io/posts/security-header/</link>
       <pubDate>Wed, 30 Sep 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/security-header/</guid>
+      <guid>https://raskin-soft.github.io/posts/security-header/</guid>
       <description>Problem Description Whenever a browser requests a page from a web server, the server responds with the content along with HTTP response headers. Some of these headers contain content meta data such as the Content-Encoding, Cache-Control, status codes, etc.
 Solution X-Frame-Options Hackers iframe your website to trick users into clicking unintended links. The X-Frame-Options tell any client that framing isn&amp;rsquo;t allowed. The header can be easily added using middleware: context.Response.Headers.Add(&amp;ldquo;X-Frame-Options&amp;rdquo;, &amp;ldquo;DENY&amp;rdquo;); Change the value to SAMEORIGIN to allow your site to iframe pages.</description>
     </item>
     
     <item>
       <title>CryptographicallyWeakPRNG</title>
-      <link>http://localhost/myblog/posts/cryptographicallyweakprng/</link>
+      <link>https://raskin-soft.github.io/posts/cryptographicallyweakprng/</link>
       <pubDate>Wed, 23 Sep 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/cryptographicallyweakprng/</guid>
+      <guid>https://raskin-soft.github.io/posts/cryptographicallyweakprng/</guid>
       <description>Problem Description The application uses a weak method of generating pseudo-random values, such that other numbers could be determined from a relatively small sample size. Since the pseudo-random number generator used is designed for statistically uniform distribution of values, it is approximately deterministic. Thus, after collecting a few generated values (e.g. by creating a few individual sessions, and collecting the sessionids), it would be possible for an attacker to calculate another sessionid.</description>
     </item>
     
     <item>
       <title>Client DOM XSS</title>
-      <link>http://localhost/myblog/posts/clientdomxss/</link>
+      <link>https://raskin-soft.github.io/posts/clientdomxss/</link>
       <pubDate>Mon, 22 Jun 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/clientdomxss/</guid>
+      <guid>https://raskin-soft.github.io/posts/clientdomxss/</guid>
       <description>Problem Description DOM-based XSS is a variant of both persistent and reflected XSS. In a DOM-based XSS attack, the malicious string is not actually parsed by the victim&amp;rsquo;s browser until the website&amp;rsquo;s legitimate JavaScript is executed. The diagram below illustrates this scenario for a reflected XSS attack:
  The attacker crafts a URL containing a malicious string and sends it to the victim. The victim is tricked by the attacker into requesting the URL from the website.</description>
     </item>
     
     <item>
       <title>CSRF</title>
-      <link>http://localhost/myblog/posts/csrf/</link>
+      <link>https://raskin-soft.github.io/posts/csrf/</link>
       <pubDate>Mon, 22 Jun 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/csrf/</guid>
+      <guid>https://raskin-soft.github.io/posts/csrf/</guid>
       <description>Problem Description Cross site request forgery (CSRF), also known as XSRF, Sea Surf or Session Riding, is an attack vector that tricks a web browser into executing an unwanted action in an application to which a user is logged in.
 For example, a typical GET request for a $100 bank transfer might look like: GET http://netbank.com/transfer.do?acct=PersonB&amp;amp;amount=$100 HTTP/1.1
 A hacker can modify this script so it results in a $100 transfer to their own account.</description>
@@ -259,50 +259,50 @@ A hacker can modify this script so it results in a $100 transfer to their own ac
     
     <item>
       <title>Disable Directory Browsing</title>
-      <link>http://localhost/myblog/posts/disabledirectorybrowsing/</link>
+      <link>https://raskin-soft.github.io/posts/disabledirectorybrowsing/</link>
       <pubDate>Mon, 22 Jun 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/disabledirectorybrowsing/</guid>
+      <guid>https://raskin-soft.github.io/posts/disabledirectorybrowsing/</guid>
       <description>Problem Description Having directory listing enabled can help an attacker to exploit other vulnerabilities more easily:
  When you expose the source folders of your application, the attacker can learn what 3rd party software you use and try known exploits for these. When the attacker finds a vulnerability in your website which allows them to view and/or overwrite arbitrary files, they can use the directory listing to find files for which this might be useful.</description>
     </item>
     
     <item>
       <title>Heap Inspection</title>
-      <link>http://localhost/myblog/posts/heap/</link>
+      <link>https://raskin-soft.github.io/posts/heap/</link>
       <pubDate>Mon, 22 Jun 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/heap/</guid>
+      <guid>https://raskin-soft.github.io/posts/heap/</guid>
       <description>Problem Description
 All variables stored by the application in unencrypted memory can potentially be retrieved by an unauthorized user, with privileged access to the machine. For example, a privileged attacker could attach a debugger to the running process or retrieve the process&amp;rsquo;s memory from the swapfile or crash dump file. Once the attacker finds the user passwords in memory, these can be reused to easily impersonate the user to the system.</description>
     </item>
     
     <item>
       <title>Secure cookie</title>
-      <link>http://localhost/myblog/posts/securecookie/</link>
+      <link>https://raskin-soft.github.io/posts/securecookie/</link>
       <pubDate>Mon, 22 Jun 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/securecookie/</guid>
+      <guid>https://raskin-soft.github.io/posts/securecookie/</guid>
       <description>Problem Description Various cookie hijacking techniques exist. All the methods are not difficult to implement and can do significant damage to a user or an organization. Cookies that contain sensitive information such as usernames, passwords, and session identifiers can be captured using these tools once they are downloaded from a site to a web browser or accessed through a computer hard drive.
 Solution •	Don’t store sensitive data in cookies, unless you absolutely have to.</description>
     </item>
     
     <item>
       <title>Secure System.random</title>
-      <link>http://localhost/myblog/posts/system.random/</link>
+      <link>https://raskin-soft.github.io/posts/system.random/</link>
       <pubDate>Mon, 22 Jun 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/system.random/</guid>
+      <guid>https://raskin-soft.github.io/posts/system.random/</guid>
       <description>Problem Description The System.Random class was designed to provide random-looking numbers quickly. These numbers are really not &amp;ldquo;high quality&amp;rdquo;, and designed for something like a game, as I showed before.
 An attacker, who is able to read enough random numbers generated by your system may be able to predict future numbers generated by the system. This may not be a problem in a game, but is very likely a problem if you look at your crypto code and imagine the attacker knowing all the nonces.</description>
     </item>
     
     <item>
       <title>User Interface redress attack / Clickjacking</title>
-      <link>http://localhost/myblog/posts/clickjacking/</link>
+      <link>https://raskin-soft.github.io/posts/clickjacking/</link>
       <pubDate>Mon, 22 Jun 2020 02:13:50 +0000</pubDate>
       
-      <guid>http://localhost/myblog/posts/clickjacking/</guid>
+      <guid>https://raskin-soft.github.io/posts/clickjacking/</guid>
       <description>Problem Description Clickjacking, also known as a “UI redress attack”, is when an attacker uses multiple transparent or opaque layers to trick a user into clicking on a button or link on another page when they were intending to click on the top level page. Thus, the attacker is “hijacking” clicks meant for their page and routing them to another page, most likely owned by another application, domain, or both.</description>
     </item>
     
