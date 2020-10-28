@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>XSRF // Code Talks</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.76.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Raskin" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://raskin-soft.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="XSRF"/>
+<meta name="twitter:description" content="Problem Description The application performs some action that modifies database contents, based purely on HTTP request content, and does not require per-request renewed authentication (such as transaction authentication or a synchronizer token), instead relying solely on session authentication. This means that an attacker could use social engineering to cause a victim to browse to a link which contains a transaction request to the vulnerable application, submitting that request from the user&rsquo;s browser."/>
+
+    <meta property="og:title" content="XSRF" />
+<meta property="og:description" content="Problem Description The application performs some action that modifies database contents, based purely on HTTP request content, and does not require per-request renewed authentication (such as transaction authentication or a synchronizer token), instead relying solely on session authentication. This means that an attacker could use social engineering to cause a victim to browse to a link which contains a transaction request to the vulnerable application, submitting that request from the user&rsquo;s browser." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://raskin-soft.github.io/posts/xsrf/" />
+<meta property="article:published_time" content="2020-10-01T01:36:00+00:00" />
+<meta property="article:modified_time" content="2020-10-01T01:36:00+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://raskin-soft.github.io/"><img class="app-header-avatar" src="/raskin.jpg" alt="Raskin" /></a>
+      <h1>Code Talks</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+      </nav>
+      <p>This documentaion is based on code snippet. As a professional software developer, we work on diversified technologies which involes a lot of codes/commands and it&#39;s difficult to memorize. This will work as our assistant!</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/raskin-soft" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://linkedin.com/in/raskinurrashid" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>linkedin</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg></a>
+        
+          <a target="_blank" href="https://facebook.com/raskinur" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-facebook">
+  <title>facebook</title>
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">XSRF</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Oct 1, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h1 id="problem-description">Problem Description</h1>
+<p>The application performs some action that modifies database contents, based purely on HTTP request content, and does not require per-request renewed authentication (such as transaction authentication or a synchronizer token), instead relying solely on session authentication. This means that an attacker could use social engineering to cause a victim to browse to a link which contains a transaction request to the vulnerable application, submitting that request from the user&rsquo;s browser. Once the application receives the request, it would trust the victim’s session, and would perform the action. This type of attack is known as Cross-Site Request Forgery (XSRF or CSRF).   A Cross-Site Request Forgery attack relies on the trust between a server and an authenticated client. By only validating the session, the server ensures that a request has emerged from a client&rsquo;s web-browser. However, any website may submit GET and POST requests to other websites, to which the browser will automatically add the session token if it is in a cookie. This cross-site request can then be trusted as arriving from the user&rsquo;s browser but does not validate that it was their intent was to make this request.</p>
+<h2 id="what-is-csrf">What is CSRF?</h2>
+<p>Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform. It allows an attacker to partly circumvent the same origin policy, which is designed to prevent different websites from interfering with each other.</p>
+<h1 id="risk">Risk</h1>
+<p>An attacker could cause the victim to perform any action for which the victim is authorized, such as transferring funds from the victim’s account to the attacker’s account. The action will be logged as being performed by the victim, in the context of their account, and potentially without their knowledge that this action has occurred.</p>
+<h1 id="general-recommendations">General Recommendations</h1>
+<p>Mitigating XSRF requires an additional layer of authentication that is built into the request validation mechanism. This mechanism would attach an additional token that only applies to the given user; this token would be available within the user&rsquo;s web-page, but will not be attached automatically to a request from a different website (e.g. not stored in a cookie). Since the token is not automatically attached to the request, and is not available to the attacker, and is required by the server to process the request, it would be completely impossible for the attacker to fill in a valid cross-site form that contains this token.   Many platforms offer built-in XSRF mitigation functionality which should be used, and perform this type of token management under the hood. Alternatively, use a known or trusted library which adds this functionality.   If implementing XSRF protection is required, this protection should adhere to the following rules:</p>
+<ol>
+<li>Any state altering form (Create, Update, Delete operations) should enforce XSRF protection, by adding an XSRF token to every state altering form submission on the client.</li>
+<li>An XSRF token should be generated and be unique per-user per-session (and, preferably, per request).</li>
+<li>The XSRF token should be inserted into the client-side form and be submitted to the server as part of the form request. For example, it could be a hidden field in an HTML form, or a custom header added by a Javascript request.</li>
+<li>The XSRF token in the request body or custom header must then be verified as belonging to the current user by the server, before a request is authorized and processed as valid.</li>
+</ol>
+<h1 id="source-code-examples">Source Code Examples</h1>
+<p>Here is an example of an HTML form with a hidden form token:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">    &lt;<span style="color:#f92672">form</span> <span style="color:#a6e22e">action</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/Home/Test&#34;</span> <span style="color:#a6e22e">method</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;post&#34;</span>&gt;
+        &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;__RequestVerificationToken&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hidden&#34;</span>   
+            <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;6fGBtLZmVBZ59oUad1Fr33BuPxANKY9q3Srr5y[...]&#34;</span> /&gt;    
+        &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;submit&#34;</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Submit&#34;</span> /&gt;
+    &lt;/<span style="color:#f92672">form</span>&gt;
+</code></pre></div><p>To add the anti-forgery tokens to a Razor page, use the HtmlHelper.AntiForgeryToken helper method:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp">    @using (Html.BeginForm(<span style="color:#e6db74">&#34;Manage&#34;</span>, <span style="color:#e6db74">&#34;Account&#34;</span>)) {
+        @Html.AntiForgeryToken()
+    }
+</code></pre></div><h1 id="helpful-links">Helpful Links:</h1>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=eWEgUcHPle0">https://www.youtube.com/watch?v=eWEgUcHPle0</a></li>
+<li><a href="https://portswigger.net/web-security/csrf">https://portswigger.net/web-security/csrf</a></li>
+<li><a href="https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/preventing-cross-site-request-forgery-csrf-attacks">https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/preventing-cross-site-request-forgery-csrf-attacks</a></li>
+</ol>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

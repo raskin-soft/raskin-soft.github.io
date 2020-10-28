@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://raskin-soft.github.io/tags/chatbot/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/cross-site-history-manipulation/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/heap-inspection/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/rasa-installation/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/reflected-xss-all-clients/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/stored-xss/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/tags/</loc>
+    <lastmod>2020-10-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/client-potential-code-injection/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/client-potential-xss/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/client-reflected-file-download/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/client-use-of-jquery-outdated/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/httponlycookies-in-config/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/insufficient-connection-string-encryption/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/missing-column-encryption/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/parameter-tampering/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/path-traversal/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/requiressl/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/use-of-cryptographically-weak-prng/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/xsrf/</loc>
+    <lastmod>2020-10-01T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/block-cipher-security-update/</loc>
+    <lastmod>2020-09-30T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/restrict-multiple-login/</loc>
+    <lastmod>2020-09-30T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/cookie-expiration/</loc>
+    <lastmod>2020-09-30T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/cookie-path-set-to-root/</loc>
+    <lastmod>2020-09-30T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/cryptography-algorithm-update/</loc>
+    <lastmod>2020-09-30T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/security-header/</loc>
+    <lastmod>2020-09-30T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/cryptographicallyweakprng/</loc>
+    <lastmod>2020-09-23T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/clientdomxss/</loc>
+    <lastmod>2020-06-22T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/csrf/</loc>
+    <lastmod>2020-06-22T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/disabledirectorybrowsing/</loc>
+    <lastmod>2020-06-22T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/heap/</loc>
+    <lastmod>2020-06-22T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/securecookie/</loc>
+    <lastmod>2020-06-22T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/system.random/</loc>
+    <lastmod>2020-06-22T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/posts/clickjacking/</loc>
+    <lastmod>2020-06-22T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raskin-soft.github.io/categories/</loc>
+  </url>
+  
+</urlset>
