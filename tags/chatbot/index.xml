@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chatbot on Raskin&#39;s Blog</title>
-    <link>https://raskin-soft.github.io/tags/chatbot/</link>
-    <description>Recent content in chatbot on Raskin&#39;s Blog</description>
+    <title>chatbot on Code Talks</title>
+    <link>http://localhost/myblog/tags/chatbot/</link>
+    <description>Recent content in chatbot on Code Talks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://raskin-soft.github.io/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/myblog/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rasa Installation</title>
-      <link>https://raskin-soft.github.io/posts/rasa-installation/</link>
+      <link>http://localhost/myblog/posts/cross-site-history-manipulation/</link>
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://raskin-soft.github.io/posts/rasa-installation/</guid>
+      <guid>http://localhost/myblog/posts/cross-site-history-manipulation/</guid>
+      <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
+    </item>
+    
+    <item>
+      <title>Rasa Installation</title>
+      <link>http://localhost/myblog/posts/heap-inspection/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/myblog/posts/heap-inspection/</guid>
+      <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
+    </item>
+    
+    <item>
+      <title>Rasa Installation</title>
+      <link>http://localhost/myblog/posts/rasa-installation/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/myblog/posts/rasa-installation/</guid>
+      <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
+    </item>
+    
+    <item>
+      <title>Rasa Installation</title>
+      <link>http://localhost/myblog/posts/reflected-xss-all-clients/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/myblog/posts/reflected-xss-all-clients/</guid>
+      <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
+    </item>
+    
+    <item>
+      <title>Rasa Installation</title>
+      <link>http://localhost/myblog/posts/stored-xss/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/myblog/posts/stored-xss/</guid>
       <description>Rasa Installation commands &amp;gt; steps 1&amp;gt; steps 2&amp;gt; steps 3 </description>
     </item>
     

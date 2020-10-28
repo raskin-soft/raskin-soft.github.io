@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Secure cookie // Code Talks</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.76.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Raskin" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://localhost/myblog/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Secure cookie"/>
+<meta name="twitter:description" content="Problem Description Various cookie hijacking techniques exist. All the methods are not difficult to implement and can do significant damage to a user or an organization. Cookies that contain sensitive information such as usernames, passwords, and session identifiers can be captured using these tools once they are downloaded from a site to a web browser or accessed through a computer hard drive.
+Solution •	Don’t store sensitive data in cookies, unless you absolutely have to."/>
+
+    <meta property="og:title" content="Secure cookie" />
+<meta property="og:description" content="Problem Description Various cookie hijacking techniques exist. All the methods are not difficult to implement and can do significant damage to a user or an organization. Cookies that contain sensitive information such as usernames, passwords, and session identifiers can be captured using these tools once they are downloaded from a site to a web browser or accessed through a computer hard drive.
+Solution •	Don’t store sensitive data in cookies, unless you absolutely have to." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost/myblog/posts/securecookie/" />
+<meta property="article:published_time" content="2020-06-22T02:13:50+00:00" />
+<meta property="article:modified_time" content="2020-06-22T02:13:50+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost/myblog/"><img class="app-header-avatar" src="/myblog/raskin.jpg" alt="Raskin" /></a>
+      <h1>Code Talks</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/myblog/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/myblog/tags/">Tags</a>
+      </nav>
+      <p>This documentaion is based on code snippet. As a professional software developer, we work on diversified technologies which involes a lot of codes/commands and it&#39;s difficult to memorize. This will work as our assistant!</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/raskin-soft" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://linkedin.com/in/raskinurrashid" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-linkedin">
+  <title>linkedin</title>
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+</svg></a>
+        
+          <a target="_blank" href="https://facebook.com/raskinur" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-facebook">
+  <title>facebook</title>
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Secure cookie</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jun 22, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Problem Description
+Various cookie hijacking techniques exist. All the methods are not difficult to implement and can do significant damage to a user or an organization. Cookies that contain sensitive information such as usernames, passwords, and session identifiers can be captured using these tools once they are downloaded from a site to a web browser or accessed through a computer hard drive.</p>
+<p>Solution
+•	Don’t store sensitive data in cookies, unless you absolutely have to.
+•	Use Session cookies if possible. Otherwise set a strict expiration.
+•	Use the HttpOnly and the Secure flags of cookies.
+•	Set the SameSite flag to avoid other websites to link to your site
+•	Leave the Domain empty, to avoid subdomains from using the cookie.</p>
+<p>Most secure cookie settings</p>
+<p><img src="http://localhost/bitsblog/images/9.png" alt="images"></p>
+<p>Implementation
+//  _____________  Add below code under &lt;/system.web&gt; ____________</p>
+<p><!-- raw HTML omitted --></p>
+<p>//  _____________  Add below code to secure your cookies ____________</p>
+<p>HttpCookie authToken;
+if (HttpContext.Current.Request.Cookies[&ldquo;AuthToken&rdquo;] == null)
+{
+authToken.Domain = HttpContext.Current.Request.Url.Host;
+authToken.Path = HttpContext.Current.Request.ApplicationPath + &ldquo;/&quot;;            authToken.Secure = HttpContext.Current.Request.IsSecureConnection;
+authToken.HttpOnly = true;
+}</p>
+<p>How it works
+A secure cookie, also known as httpOnly cookie, is a type of cookie that only works with HTTP/HTTPS and does not work for scripting languages like JavaScript. Since it is only used in storing information and used for hypertext transfer protocol requests and data over the internet, exploits and hacks made through scripting are unable to access them. So a secure cookie&rsquo;s main benefit is that it can stop theft through cross-site scripting (XSS).
+If the browser sends cookies over unencrypted connections, it will be possible for hackers to eavesdrop on your connection and read (or even change) the contents of your cookies. To prevent this, send cookies over encrypted connections only.
+Setting the secure flag prevents the cookie from ever being sent over an unencrypted connection. It basically tells the browser to never add the cookie to any request to the server that does not use an encrypted channel.</p>
+<p>How to test
+Check from your browser’s developer tools that below properties are set well.</p>
+<p><img src="http://localhost/bitsblog/images/10.png" alt="images"></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
